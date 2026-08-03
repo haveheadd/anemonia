@@ -3,21 +3,30 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="ANEMONIA — массаж, хаммам и SPA-уходы у метро Технопарк в Москве.">
-  <title>ANEMONIA — SPA-салон в Москве</title>
+  <meta name="description" content="ANEMONIA — массаж, хаммам, SPA-программы и ногтевой сервис у метро Технопарк в Москве. Актуальные услуги и цены.">
+  <meta name="theme-color" content="#f4efe7">
+  <link rel="canonical" href="https://haveheadd.github.io/anemonia/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:url" content="https://haveheadd.github.io/anemonia/">
+  <meta property="og:title" content="ANEMONIA — SPA-салон в Москве">
+  <meta property="og:description" content="Массаж, хаммам, SPA-программы и ногтевой сервис у метро Технопарк.">
+  <meta property="og:image" content="https://haveheadd.github.io/anemonia/hero-spa.jpg">
+  <title>ANEMONIA — SPA-салон у метро Технопарк</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2250%22 fill=%22%23641f35%22/><text x=%2250%22 y=%2268%22 text-anchor=%22middle%22 font-size=%2255%22 fill=%22%23f4efe7%22>A</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
 <main>
   <header class="site-header">
     <a class="logo" href="#top" aria-label="ANEMONIA — на главную">ANEMONIA</a>
     <nav aria-label="Основная навигация">
-      <a href="#services">Процедуры</a><a href="#programs">SPA-программы</a><a href="#about">О салоне</a><a href="#contacts">Контакты</a>
+      <a href="#services">Процедуры</a><a href="#programs">SPA-программы</a><a href="#nails">Ногтевой сервис</a><a href="#contacts">Контакты</a>
     </nav>
-    <a class="header-book" href="#contacts">Записаться</a>
+    <a class="header-book booking-link" href="#contacts">Записаться</a>
   </header>
 
   <section class="hero" id="top">
@@ -25,47 +34,73 @@
       <p class="eyebrow">SPA-салон у метро Технопарк</p>
       <h1>Место, где можно перестать спешить</h1>
       <p class="hero-lead">Массаж, хаммам и SPA-уходы, после которых тело становится легче, а внутри — тише.</p>
-      <div class="hero-actions"><a class="button button-primary" href="#services">Выбрать процедуру</a><a class="button button-secondary" href="#contacts">Записаться</a></div>
-      <a class="location" href="#contacts"><span>⌖</span> Москва · проспект Андропова, 9/1к2</a>
+      <div class="hero-actions"><a class="button button-primary" href="#services">Выбрать процедуру</a><a class="button button-secondary booking-link" href="#contacts">Записаться</a></div>
+      <a class="location" href="#contacts"><span>⌖</span> Москва · проспект Андропова, 9/1</a>
     </div>
-    <div class="hero-image" role="img" aria-label="Интерьер SPA-салона ANEMONIA"></div>
+    <div class="hero-image" role="img" aria-label="Спокойная атмосфера SPA-салона ANEMONIA"></div>
   </section>
 
   <section class="intro" id="about">
     <p class="section-label">О салоне</p>
-    <div><h2>Не роскошь. Нормальный способ позаботиться о себе.</h2><p>ANEMONIA — камерное пространство, куда приходят не «стать лучшей версией себя», а выдохнуть. Мы подбираем процедуру под ваше состояние, не торопим и оставляем достаточно времени, чтобы возвращаться в город постепенно.</p></div>
+    <div><h2>Не роскошь. Спокойный способ позаботиться о себе.</h2><p>ANEMONIA — камерное пространство, куда приходят не «стать лучшей версией себя», а выдохнуть. Мы подбираем процедуру под ваше состояние, не торопим и оставляем достаточно времени, чтобы возвращаться в город постепенно.</p></div>
   </section>
 
   <section class="services" id="services">
-    <div class="section-heading"><p class="section-label">Процедуры</p><h2>Выберите, что нужно телу сегодня</h2></div>
-    <div class="service-list">
-      <article class="service-card"><span class="service-number">01</span><h3>Массаж</h3><p>От мягкого расслабляющего до глубокого — под ваше состояние и запрос.</p><span class="service-meta">от 60 минут</span><a href="#contacts">Записаться <span>↗</span></a></article>
-      <article class="service-card"><span class="service-number">02</span><h3>Хаммам</h3><p>Тепло, пар и ритуал очищения, после которого тело наконец отпускает напряжение.</p><span class="service-meta">индивидуально или вдвоём</span><a href="#contacts">Записаться <span>↗</span></a></article>
-      <article class="service-card"><span class="service-number">03</span><h3>SPA-уходы</h3><p>Скрабы, пилинги, обёртывания и уходы за лицом в одной спокойной программе.</p><span class="service-meta">от 90 минут</span><a href="#contacts">Записаться <span>↗</span></a></article>
+    <div class="section-heading"><p class="section-label">Массаж</p><div><h2>Выберите подходящий формат</h2><p class="section-note">Продолжительность приведена там, где она указана в действующем прайсе салона.</p></div></div>
+    <div class="price-grid">
+      <article class="price-card"><div><h3>Классический массаж</h3><span>60 минут · всё тело</span></div><p>Мягкие и плавные техники для расслабления мышц, снятия напряжения и общего восстановления.</p><strong>4 000 ₽</strong><a class="booking-link" href="#contacts">Записаться ↗</a></article>
+      <article class="price-card"><div><h3>Комплексный массаж</h3><span>60 минут · всё тело</span></div><p>Тонизирующие и расслабляющие техники подбираются индивидуально с учётом пожеланий гостя.</p><strong>4 000 ₽</strong><a class="booking-link" href="#contacts">Записаться ↗</a></article>
+      <article class="price-card"><div><h3>Массаж головы</h3><span>Продолжительность уточняется</span></div><p>Комплексный уход за кожей головы и волосами, расслабляющая проработка мышц головы.</p><strong>2 500 ₽</strong><a class="booking-link" href="#contacts">Записаться ↗</a></article>
+      <article class="price-card"><div><h3>Массаж лица и головы</h3><span>60 минут</span></div><p>Глубокая проработка лица, шеи и головы для тонуса и ухоженного вида кожи.</p><strong>5 000 ₽</strong><a class="booking-link" href="#contacts">Записаться ↗</a></article>
+      <article class="price-card"><div><h3>Масляный / арома-массаж</h3><span>Продолжительность уточняется</span></div><p>Расслабляющие техники и натуральные ароматы помогают отпустить накопившееся напряжение.</p><strong>4 000 ₽</strong><a class="booking-link" href="#contacts">Записаться ↗</a></article>
+      <article class="price-card"><div><h3>Массаж горячими камнями</h3><span>60 минут</span></div><p>Стоун-массаж с горячими и холодными камнями для глубокого расслабления мышц.</p><strong>4 000 ₽</strong><a class="booking-link" href="#contacts">Записаться ↗</a></article>
+      <article class="price-card"><div><h3>Антицеллюлитный массаж</h3><span>80 минут · живот, спина, руки</span></div><p>Интенсивная проработка проблемных зон для тонуса, гладкости и более ухоженного вида кожи.</p><strong>6 000 ₽</strong><a class="booking-link" href="#contacts">Записаться ↗</a></article>
+      <article class="price-card"><div><h3>Восстановительный массаж</h3><span>60 минут</span></div><p>Массаж для снятия напряжения и восстановления сил после стресса и нагрузок.</p><strong>4 000 ₽</strong><a class="booking-link" href="#contacts">Записаться ↗</a></article>
+      <article class="price-card"><div><h3>Био-структуральный массаж</h3><span>60 минут · спина, живот</span></div><p>Точечные техники, надавливания, растягивания и растирания для глубокой проработки мышц.</p><strong>4 000 ₽</strong><a class="booking-link" href="#contacts">Записаться ↗</a></article>
+      <article class="price-card"><div><h3>Лимфодренажный массаж</h3><span>80 минут · спина, грудной отдел, живот, руки</span></div><p>Ритмичная проработка тела, направленная на ощущение тонуса и лёгкости.</p><strong>6 000 ₽</strong><a class="booking-link" href="#contacts">Записаться ↗</a></article>
+    </div>
+    <div class="extras">
+      <div><p class="section-label">Дополнительно</p><h2>Локальная проработка</h2></div>
+      <div class="extras-list">
+        <article><h3>Массаж спины</h3><span>30 минут · цена уточняется</span><p>Расслабляющая проработка спины для снятия накопившегося напряжения.</p><a class="booking-link" href="#contacts">Записаться ↗</a></article>
+        <article><h3>Шейно-воротниковая зона и голова</h3><span>Продолжительность и цена уточняются</span><p>Глубокая проработка мышц шеи, плеч и верхней части спины.</p><a class="booking-link" href="#contacts">Записаться ↗</a></article>
+        <article><h3>Ноги и стопы</h3><span>Продолжительность и цена уточняются</span><p>Интенсивная проработка мышц и связок ног и расслабляющий массаж стоп.</p><a class="booking-link" href="#contacts">Записаться ↗</a></article>
+      </div>
     </div>
   </section>
 
   <section class="programs" id="programs">
-    <div class="programs-copy"><p class="section-label">SPA-программы</p><h2>Когда одной процедуры мало</h2><p>Готовые ритуалы соединяют хаммам, уходы и массаж. Можно прийти одной, вдвоём или подарить кому-то паузу от всего.</p><a class="text-link" href="#contacts">Подобрать программу →</a></div>
+    <div class="programs-copy"><p class="section-label">SPA-программы</p><h2>Ритуалы и программы</h2><p>Хаммам, массаж, обёртывания и уходы соединены в готовые сценарии. Для программ без опубликованной цены стоимость можно уточнить у администратора.</p><a class="text-link booking-link" href="#contacts">Подобрать программу →</a></div>
     <div class="program-list">
-      <article><div><h3>Перезагрузка</h3><span>90 минут</span></div><p>Хаммам, пилинг и расслабляющий массаж — чтобы выйти из режима постоянной спешки.</p><a href="#contacts">Подробнее</a></article>
-      <article><div><h3>Время для двоих</h3><span>120 минут</span></div><p>Совместная SPA-программа в приватной атмосфере: без повода и без лишнего шума.</p><a href="#contacts">Подробнее</a></article>
-      <article><div><h3>Лёгкость</h3><span>120 минут</span></div><p>Уход за телом и массаж с акцентом на восстановление, мягкость кожи и ощущение лёгкости.</p><a href="#contacts">Подробнее</a></article>
+      <article><div><h3>Встреча с хаммамом</h3><span>3 часа · цена уточняется</span></div><p>На выбор «Хаммам с эвкалиптом» или «Очарование востока», затем тайский или балийский массаж и чайная церемония. Основная часть с хаммамом и массажем — 2 часа 20 минут.</p><a class="booking-link" href="#contacts">Записаться</a></article>
+      <article><div><h3>Романтическая встреча с хаммамом</h3><span>3 часа · цена уточняется</span></div><p>Посещение хаммама, массаж и чайная церемония после программы.</p><a class="booking-link" href="#contacts">Записаться</a></article>
+      <article><div><h3>SPA для двоих</h3><span>2 часа · цена уточняется</span></div><p>Тайский или балийский массаж с аромамаслами, сахарный или кремовый скраб на выбор, чайная церемония и лёгкие угощения.</p><a class="booking-link" href="#contacts">Записаться</a></article>
+      <article><div><h3>Антистресс мегаполис</h3><span>2–2,5 часа · 24 000–28 000 ₽</span></div><p>Хаммам, обёртывание «Энергия Морской Воды», массаж «Интенсивная ревитализация», уход BEAUTY ENHANCER для лица.</p><a class="booking-link" href="#contacts">Записаться</a></article>
+      <article><div><h3>Детокс и силуэт</h3><span>2,5–3 часа · 28 000–32 000 ₽</span></div><p>Хаммам, «Гармонизирующее» обёртывание, детокс-ритуал и уход для спины.</p><a class="booking-link" href="#contacts">Записаться</a></article>
+      <article><div><h3>Полное восстановление</h3><span>3 часа · 30 000–35 000 ₽</span></div><p>Хаммам, «Интенсивная ревитализация», уход HYDRA-MINERAL для лица и массаж стоп.</p><a class="booking-link" href="#contacts">Записаться</a></article>
+    </div>
+  </section>
+
+  <section class="services body-care">
+    <div class="section-heading"><p class="section-label">Индивидуальные уходы</p><div><h2>Уход за телом</h2><p class="section-note">Стоимость курса приведена по данным действующего сайта салона.</p></div></div>
+    <div class="price-grid price-grid-three">
+      <article class="price-card"><div><h3>«Энергия Морской Воды»</h3><span>Обёртывание</span></div><p>Расслабляющий минерализующий уход после перелётов, спорта и стресса.</p><strong>14 000–19 000 ₽</strong><small>Курс — от 65 000 ₽</small><a class="booking-link" href="#contacts">Записаться ↗</a></article>
+      <article class="price-card"><div><h3>«Гармонизирующее»</h3><span>Обёртывание · Пелоид Геранды</span></div><p>Антистресс-уход с акцентом на силуэт, тонус и ухоженный вид кожи.</p><strong>16 000–22 000 ₽</strong><small>Курс — от 100 000 ₽</small><a class="booking-link" href="#contacts">Записаться ↗</a></article>
+      <article class="price-card"><div><h3>«Интенсивная ревитализация»</h3><span>Массаж без обёртывания</span></div><p>Интенсивный восстанавливающий уход для гостей после высоких нагрузок.</p><strong>13 000–15 000 ₽</strong><small>Курс — от 60 000 ₽</small><a class="booking-link" href="#contacts">Записаться ↗</a></article>
+    </div>
+  </section>
+
+  <section class="nails" id="nails">
+    <div><p class="section-label">Ногтевой сервис</p><h2>Уход за руками и ногами</h2><p>Классический, аппаратный и комбинированный маникюр, полный и экспресс-педикюр.</p></div>
+    <div class="nail-list">
+      <article><h3>Маникюр</h3><dl><div><dt>Классический / аппаратный / комбинированный</dt><dd>1 200 ₽</dd></div><div><dt>Комплекс: снятие, маникюр, покрытие, камуфляж</dt><dd>2 200 ₽</dd></div><div><dt>Маникюр с цветным покрытием</dt><dd>2 400 ₽</dd></div><div><dt>Ремонт архитектуры</dt><dd>500 ₽</dd></div></dl><a class="booking-link" href="#contacts">Записаться ↗</a></article>
+      <article><h3>Педикюр</h3><dl><div><dt>Полный педикюр: пальцы и стопа</dt><dd>2 200 ₽</dd></div><div><dt>Экспресс-педикюр: пальцы</dt><dd>1 700 ₽</dd></div><div><dt>Комплекс: снятие, полный педикюр, покрытие</dt><dd>3 200 ₽</dd></div><div><dt>Экспресс с покрытием: только пальцы</dt><dd>2 400 ₽</dd></div></dl><a class="booking-link" href="#contacts">Записаться ↗</a></article>
     </div>
   </section>
 
   <section class="principles">
     <p class="section-label">Почему ANEMONIA</p>
     <div class="principles-grid"><h2>Забота здесь — не слово из рекламы, а то, как всё устроено.</h2><div><p><strong>Приватно.</strong> Никакого ощущения конвейера и спешки между гостями.</p><p><strong>По состоянию.</strong> Мастер уточнит ваш запрос и адаптирует процедуру.</p><p><strong>Спокойно.</strong> Тихая музыка, мягкий свет и время прийти в себя после сеанса.</p></div></div>
-  </section>
-
-  <section class="reviews">
-    <div class="section-heading"><p class="section-label">Отзывы гостей</p><div><h2>Что говорят после процедур</h2><p class="prototype-note">Тексты ниже показывают формат блока — перед запуском заменим их на реальные отзывы гостей.</p></div></div>
-    <div class="review-grid">
-      <blockquote><p>«Здесь очень спокойно и красиво, но главное — мастера действительно чувствуют тело. После массажа хотелось просто молчать.»</p><footer>Анна</footer></blockquote>
-      <blockquote><p>«Пришла после тяжёлой недели, вышла как после небольшого отпуска. Вернусь на программу с хаммамом.»</p><footer>Мария</footer></blockquote>
-      <blockquote><p>«Никакой суеты и навязчивости. Всё деликатно, тепло и с большим вниманием к деталям.»</p><footer>Елена</footer></blockquote>
-    </div>
   </section>
 
   <section class="faq">
@@ -79,8 +114,8 @@
   </section>
 
   <section class="contacts" id="contacts">
-    <div><p class="section-label">Контакты</p><h2>Запланируйте время, в которое никуда не нужно спешить</h2><a class="button button-light" href="tel:+79255013894">+7 925 501-38-94</a><p class="booking-note">Онлайн-запись через YCLIENTS будет подключена сюда.</p></div>
-    <div class="contact-details"><div><span>Адрес</span><p>Москва, проспект Андропова,<br>9/1к2</p></div><div><span>Режим работы</span><p>Ежедневно<br>10:00–22:00</p></div><a href="https://yandex.ru/maps/?text=%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82%20%D0%90%D0%BD%D0%B4%D1%80%D0%BE%D0%BF%D0%BE%D0%B2%D0%B0%209%2F1%D0%BA2" target="_blank" rel="noreferrer">Открыть на карте ↗</a></div>
+    <div><p class="section-label">Контакты</p><h2>Запланируйте время, в которое никуда не нужно спешить</h2><a class="button button-light booking-link" href="tel:+79255013894">Позвонить и записаться</a><p class="booking-note">До подключения YCLIENTS онлайн-запись работает в резервном режиме: кнопки ведут сюда, к телефону салона.</p></div>
+    <div class="contact-details"><div><span>Адрес</span><p>Москва, проспект Андропова,<br>9/1</p></div><div><span>Телефон</span><p><a href="tel:+79255013894">+7 925 501-38-94</a></p></div><a href="https://yandex.ru/maps/?text=%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82%20%D0%90%D0%BD%D0%B4%D1%80%D0%BE%D0%BF%D0%BE%D0%B2%D0%B0%209%2F1" target="_blank" rel="noreferrer">Открыть на карте ↗</a></div>
   </section>
   <footer class="footer"><span class="logo">ANEMONIA</span><p>© 2026 SPA-салон ANEMONIA</p><a href="#top">Наверх ↑</a></footer>
 </main>
