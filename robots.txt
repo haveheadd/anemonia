@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://haveheadd.github.io/anemonia/sitemap.xml
+Sitemap: https://anemonia-spa.ru/sitemap.xml
